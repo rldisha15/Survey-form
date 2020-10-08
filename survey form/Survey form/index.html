@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Survey Form</title>
+    <script src="libraries/p5.js"></script>
+    <script src="libraries/p5.dom.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+    <script src="libraries/matter.js"></script>
+    <script src="libraries/p5.play.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+
+    <!-- Insert your Firebase here -->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-database.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+    <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyCW5dxy7c9yYQpUvZrK1bTWMUczl2OZX6U",
+      authDomain: "surveyform-10a95.firebaseapp.com",
+      databaseURL: "https://surveyform-10a95.firebaseio.com",
+      projectId: "surveyform-10a95",
+      storageBucket: "surveyform-10a95.appspot.com",
+      messagingSenderId: "204539737954",
+      appId: "1:204539737954:web:38718531b08d6a60fb9e3b"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+
+    </script>
+    <script src="js/Form.js"></script>
+    <script src="js/UserData.js"></script>
+  
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+  
+
+</body></html>
